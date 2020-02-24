@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit device specific files
-$(call inherit-product, device/samsung/tassve/device_tassve.mk)
+$(call inherit-product, device/samsung/tassve/device.mk)
 
 # Overrides
 PRODUCT_NAME := full_tassve
