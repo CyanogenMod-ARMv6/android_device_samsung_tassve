@@ -7,10 +7,10 @@ $(call inherit-product, device/samsung/tassve/full_tassve.mk)
 # Inherit some common CM stuff.
 TARGET_SCREEN_HEIGHT := 320
 TARGET_SCREEN_WIDTH := 240
-$(call inherit-product, vendor/cm/config/mini.mk)
+$(call inherit-product, vendor/cm/config/common_mini.mk)
 
 # Overrides
-PRODUCT_NAME := cm_tassve
+PRODUCT_NAME := lineage_tassve
 PRODUCT_DEVICE := tassve
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := GT-S5570i

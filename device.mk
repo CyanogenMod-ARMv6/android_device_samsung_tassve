@@ -26,8 +26,8 @@ $(call inherit-product, device/samsung/bcm21553-common/common.mk)
 $(call inherit-product, vendor/samsung/tassve/vendor.mk)
 
 # LDPI assets
-PRODUCT_AAPT_CONFIG := normal mdpi ldpi
-PRODUCT_AAPT_PREF_CONFIG := ldpi
+PRODUCT_AAPT_CONFIG := normal mdpi ldpi nodpi
+# PRODUCT_AAPT_PREF_CONFIG := ldpi
 $(call inherit-product, device/ldpi-common/ldpi.mk)
 
 # Add device package overlay
